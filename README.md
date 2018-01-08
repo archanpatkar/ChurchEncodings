@@ -1,2 +1,2 @@
 # ChurchEncodings 
-### Church encoding is a means of representing data and operators in the lambda calculus.
+### Church encoding is a means of modeling data and operators in the lambda calculus.
