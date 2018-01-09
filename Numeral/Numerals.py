@@ -15,6 +15,14 @@ succ = lambda n: lambda f: lambda a: f(n(f)(a));
 
 num = lambda n: n(lambda x: x + 1)(0);
 
+def lnum(n):
+    for i in range(n):
+        if(type(n) == int):
+            n = once
+        else:
+            n = succ(n)
+    return n;
+
 add = lambda n: lambda k: n(succ)(k);
 
 mult = bluebird;
@@ -57,3 +65,7 @@ print(num(pow(thrice)(twice)))
 print("Testing IS ZERO");
 print(iszero(once))
 print(iszero(zero))
+
+print("Number 10");
+print(lnum(10));
+print(num(lnum(10)));
