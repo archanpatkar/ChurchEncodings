@@ -6,16 +6,17 @@
 
 ### Code
 ``` python
-# Representing true as a lambda
+# Representing true as a function
 def TRUE(x):
   return lambda y: x
 
-# Representing false as a lambda
+# Representing false as a function
 def FALSE(x):
   return lambda y: y
 
-# Representing ! (Not) operator as a lambda
-NOT = lambda b: b(FALSE)(TRUE)
+# Representing ! (Not) operator as a function
+def NOT(b):
+  return b(FALSE)(TRUE)
 
 print(NOT(TRUE))
 print(NOT(FALSE))
