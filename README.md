@@ -1,5 +1,6 @@
 # ChurchEncodings 
-### Church encoding is a means of modeling data and operators using lambda abstractions. 
+### Church Encoding is a means of modeling data and operators using lambda abstractions in Lambda Calculus.
+### Implementated in Python
 
 ## Illustration
 
