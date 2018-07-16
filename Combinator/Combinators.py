@@ -20,4 +20,4 @@ vireo = lambda x: lambda y: lambda f: f(x)(y);
 
 blackbird = lambda f: lambda g: lambda a: lambda b: f(g(a)(b))
 
-print(bluebird(NOT)(NOT)(FALSE));
+#print(bluebird(NOT)(NOT)(FALSE));
