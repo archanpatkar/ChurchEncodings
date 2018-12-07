@@ -13,7 +13,7 @@ TRUE = lambda x: lambda y: x
 FALSE = lambda x: lambda y: y
 
 # Representing ! (Not) operator as a function
-NOT = lambda  b: b(FALSE)(TRUE)
+NOT = lambda b: b(FALSE)(TRUE)
 
 print(NOT(TRUE))
 print(NOT(FALSE))
